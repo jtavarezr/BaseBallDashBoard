@@ -1,0 +1,47 @@
+.card {
+    width: 150px;
+    /* Ancho fijo para las tarjetas */
+    height: auto;
+    /* Altura automática para las tarjetas */
+    margin-right: 10px;
+    /* Margen derecho entre las tarjetas */
+    background-color: #ffff;
+    /* Color de fondo de las tarjetas */
+    border-bottom: 1px solid #ccc;
+    /* Borde inferior de las tarjetas */
+    border-radius: 5px;
+    /* Radio de borde de las tarjetas */
+    padding: 5px;
+    /* Reducir el relleno de la tarjeta */
+}
+
+.card .header {
+    font-size: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    /* Borde inferior del encabezado */
+}
+
+.card .team {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los elementos a los extremos */
+    align-items: center;
+    /* Alinea verticalmente los elementos */
+}
+
+.card .team img {
+    width: 25px;
+    /* Ancho fijo para las imágenes de los equipos */
+    height: 25px;
+    /* Altura fija para las imágenes de los equipos */
+}
+
+.card .team-name {
+    font-size: 10px;
+    /* Tamaño de fuente para el nombre del equipo */
+    color: #333;
+    /* Color de texto para el nombre del equipo */
+    margin-left: 5px;
+    /* Margen a la izquierda del nombre del equipo */
+}
